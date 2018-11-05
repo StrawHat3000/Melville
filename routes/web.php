@@ -17,4 +17,36 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/admin/home', [
+      'uses' => 'HomeController@index',
+       'as'  => 'home'
+]);
+
+Route::get('/admin/post/create', [
+     'uses' => 'PostsController@create',
+     'as'   => 'post.create'
+   ]);
+
+
+Route::post('/admin/post/store', [
+    'uses' => 'PostsController@store',
+      'as' => 'post.store'
+]);
+
+
+Route::get('/category/create', [
+      'uses' => 'CategoriesController@create',
+      'as'   => 'category.create'
+]);
+
+
+Route::get('/categories' , [
+      'uses' => 'CategoriesController@index',
+       'as'  => 'categories'
+]);
+
+
+Route::post('/category/store', [
+      'uses'  => 'CategoriesController@store',
+       'as'   =>  'category.store'
+]);
