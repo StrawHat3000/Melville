@@ -1,8 +1,8 @@
 /*==================================
-Template Name: Reptro 
+Template Name: Reptro
 Description: Reptro is a Multipurpose Business Template.
 Version: 1.0
-====================================*/  
+====================================*/
 
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1280px) {
@@ -338,7 +338,7 @@ div.recent-project-item figure .recent-project-captions p {
     font-size: 14px;
     padding: 8px 10px;
     z-index: 222;
-    background: #18ba60;
+    background: #162336;
     width: 155px;
     border-radius: 55px;
 }
@@ -1981,7 +1981,7 @@ body,html{
     margin-bottom: 5px;
 }
 .header-bottom .mean-container a.meanmenu-reveal span { background: #162336;}
-.header-bottom .mean-container a.meanmenu-reveal { 
+.header-bottom .mean-container a.meanmenu-reveal {
     color: #162336;
 }
 

@@ -329,9 +329,9 @@
             <div class="col-lg-6 col-12">
               <div class="about-us-left">
                 <h2>Welcome To Melville College</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget fringilla erat. Morbi tempor diam a est cursus eleifend. Integer odio nisi, porta ac dui vel, elementum aliquet massa.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>A New Concept in Secondary School Education</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget fringilla erat. Morbi tempor diam a est cursus eleifend.</p>
+<p>Paradigm Shifiting Education with empasis on Understanding over mindless-cramming</p>
                 <a href="#">Explore More <span><i class="icofont-long-arrow-right"></i></span></a>
               </div>
             </div>
@@ -556,19 +556,19 @@
                 <div class="home-tab-content">
                   <div class="tab-content">
                     <div id="home-1" class="tab-pane fade in active">
-                        <p>Lorem ipsum dolor sit amet mollis felis dapibus arcu donec viverra. Pede phasellus eget. Etiam maecenas vel vici quis dictum rutrum nec nisi et. Ac penatibus aenean. </p>
-                        <span><strong>Mark Parker</strong></span>
-                        <p>Envato Customer</p>
+                        <p>Melville schools have push and motivated me throughout my childhood and gave me the foundation to become who i am Today, Thank you!</p>
+                        <span><strong>Helen Paul</strong></span>
+                        <p>High School Student</p>
                     </div>
                     <div id="home-2" class="tab-pane fade">
                         <p>Lorem ipsum dolor sit amet mollis felis dapibus arcu donec viverra. Pede phasellus eget. Etiam maecenas vel vici quis dictum rutrum nec nisi et. Ac penatibus aenean. </p>
                         <span><strong>Mark Parker</strong></span>
-                        <p>Envato Customer</p>
+                        <p>High School Student</p>
                     </div>
                     <div id="home-3" class="tab-pane fade">
                         <p>Lorem ipsum dolor sit amet mollis felis dapibus arcu donec viverra. Pede phasellus eget. Etiam maecenas vel vici quis dictum rutrum nec nisi et. Ac penatibus aenean. </p>
                         <span><strong>Mark Parker</strong></span>
-                        <p>Envato Customer</p>
+                        <p>High School Student</p>
                     </div>
 
                   </div>
@@ -610,7 +610,7 @@
                   <div class="conter-item text-center">
                     <span><i class="flaticon-team"></i></span>
                     <div class="counter" data-count="55">0</div>
-                    <p>Followers</p>
+                    <p>Student Alumni</p>
                   </div>
                 </div>
 
@@ -662,7 +662,7 @@
                   <div class="conter-item text-center">
                     <span><i class="flaticon-team"></i></span>
                     <div class="counter" data-count="55">0</div>
-                    <p>Followers</p>
+                    <p>Student Alumni</p>
                   </div>
                 </div>
 
@@ -685,7 +685,7 @@
         <div class="row">
           <div class="section-default-title text-center col-12">
             <h2>Latest News</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget <br> fringilla erat. Morbi tempor diam a est cursus eleifend.</p>
+            <p>Word on the Hall ways!</p>
           </div>
         </div>
         <!-- End Row -->

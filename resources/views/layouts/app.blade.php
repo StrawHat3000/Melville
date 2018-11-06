@@ -23,9 +23,16 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Melville') }}
-                </a>
+              <div class="row">
+                <aside class="col-md-2 col-xs-2"><img src="{!! asset('/assets/images/normal/melville.png') !!}" class="img-fluid" alt="Logo"></a></aside>
+               <div class="col-md-8 col-xs-2">
+                  <a class="navbar-brand" href="{{ url('/') }}">
+                    {{ config('app.name', 'Melville Schools') }}
+                  </a>
+
+                </div>
+                    </div>
+
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>

@@ -1586,8 +1586,10 @@ Request a Call Back*/
 /*----------------------------------------*/
 #footer-bottom {
   padding-top: 25px;
-  background-color: #18ba60;
+  background-color: #495b76;
   padding-bottom: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 .copy-text{}
 .copy-text a:hover{color: #162336}
@@ -1688,7 +1690,7 @@ Request a Call Back*/
   text-transform: uppercase;
   transition: all 0.4s ease 0s;
   z-index: 222;
-  background: #A9A9A9;
+  background: #162336;
   width: 182px;
   border-radius: 55px;
 }
@@ -1724,7 +1726,7 @@ Request a Call Back*/
 #main-slider-1 #slider-one .owl-nav {
   margin-top: 0;
   position: absolute;
-  right: 10px;
+  left: 0px;
   bottom: 40%;
   z-index: 12;
   /* background-color: #18ba60; */
@@ -1750,7 +1752,7 @@ Request a Call Back*/
     -webkit-transition: 0.4s;
     -moz-transition: 0.4s;
     -o-transition: 0.4s;
-    -ms-transition: 0.4s;background-color: #18ba60;
+    -ms-transition: 0.4s;background-color: #808080;
 padding: 10px 10px !important;
 display: block;
 margin-bottom: 10px;
@@ -1761,7 +1763,7 @@ border-radius: 3px;border:3px solid transparent;
     -webkit-transition: 0.4s;
     -moz-transition: 0.4s;
     -o-transition: 0.4s;
-    -ms-transition: 0.4s;background-color: #18ba60;
+    -ms-transition: 0.4s;background-color: #808080;
 padding: 10px 10px !important;
 display: block;
 
@@ -2255,7 +2257,7 @@ div.home-form .form-group {
   color: #18ba60;
 }
 /*What people Say*/
-#people-say-section{background-color: #18ba60;position: relative;}
+#people-say-section{background-color: #162336;position: relative;}
 .bg-left-section{position: static;}
 .bg-right-section{position: static;}
 .happy-client-bg{
