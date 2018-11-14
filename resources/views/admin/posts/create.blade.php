@@ -4,15 +4,15 @@
 
     @include('admin.includes.errors')
 
-  <div class="panel panel-default">
+  <div class="card">
 
-    <div class="panel-heading">
+    <div class="card-header">
 
       Create a new post
 
     </div>
 
-    <div class="panel-body">
+    <div class="card-body">
 
         <form action="{{ route('post.store') }}" method="post" enctype="multipart/form-data">
                 {{ csrf_field() }}

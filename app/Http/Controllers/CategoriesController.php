@@ -48,7 +48,7 @@ class CategoriesController extends Controller
 
         Session::flash('success', 'You succesfully created a category');
 
-        return redirect()->back();
+        return redirect()->route('categories');
 
     }
 
