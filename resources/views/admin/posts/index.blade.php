@@ -7,6 +7,9 @@
 
         <div class="card-header">
 
+            Published Posts
+        </div>
+
       <div class="card-body">
         <table class="table table-hover">
 
@@ -18,30 +21,38 @@
           </thead>
 
           <tbody>
+            @if($posts->count() > 0)
+              @foreach ($posts as $post)
 
-             @foreach ($posts as $post)
+                <tr>
+                    <td>
+                       <img src="{{ $post->featured }}" alt="{{ $post->title }}" width="90px" height="50px">
+                    </td>
 
-               <tr>
+                    <td>
+                      {{ $post->title }}
+                    </td>
+
                    <td>
-                      <img src="{{ $post->featured }}" alt="{{ $post->title }}" width="90px" height="50px">
+                       <a href="{{ route('post.edit', ['id' => $post->id]) }}" class="btn btn-sm btn-info">Edit</a>
+
                    </td>
 
                    <td>
-                     {{ $post->title }}
+                     <a href="{{ route('post.delete', ['id' => $post->id]) }}" class="btn btn-sm btn-outline-danger">Trash</a>
                    </td>
 
-                  <td>
-                      Edit
+                </tr>
 
-                  </td>
+              @endforeach
 
-                  <td>
-                    <a href="{{ route('post.delete', ['id' => $post->id]) }}" class="btn btn-danger">Trash</a>
-                  </td>
+            @else
+              <tr>
+                <th colspan="5" class="text-center">No published posts</th>
+              </tr>
 
-               </tr>
+            @endif
 
-             @endforeach
           </tbody>
 
         </table>

@@ -6,6 +6,8 @@
       <div class="card">
 
         <div class="card-header">
+          Trashed Posts
+        </div>
 
       <div class="card-body">
         <table class="table table-hover">
@@ -18,31 +20,39 @@
           </thead>
 
           <tbody>
+              @if($posts->count() > 0)
 
-             @foreach ($posts as $post)
+                             @foreach ($posts as $post)
 
-               <tr>
-                   <td>
-                      <img src="{{ $post->featured }}" alt="{{ $post->title }}" width="90px" height="50px">
-                   </td>
+                               <tr>
+                                   <td>
+                                      <img src="{{ $post->featured }}" alt="{{ $post->title }}" width="90px" height="50px">
+                                   </td>
 
-                   <td>
-                     {{ $post->title }}
-                   </td>
+                                   <td>
+                                     {{ $post->title }}
+                                   </td>
 
 
 
-                  <td>
-                    <a href="{{ route('post.delete', ['id' => $post->id]) }}" class="btn btn-sm btn-outline-success">Restore</a>
-                  </td>
+                                  <td>
+                                    <a href="{{ route('post.restore', ['id' => $post->id]) }}" class="btn btn-sm btn-outline-success">Restore</a>
+                                  </td>
 
-                  <td>
-                    <a href=" {{  route('post.kill', ['id' => $post->id]) }}" class="btn btn-sm btn-outline-danger">Delete</a>
-                  </td>
+                                  <td>
+                                    <a href=" {{  route('post.kill', ['id' => $post->id]) }}" class="btn btn-sm btn-outline-danger">Delete</a>
+                                  </td>
 
-               </tr>
+                               </tr>
 
-             @endforeach
+                             @endforeach
+
+              @else
+                <tr>
+                  <th colspan="5" class="text-center">No trashed Posts</th>
+                </tr>
+
+              @endif
           </tbody>
 
         </table>
