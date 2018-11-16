@@ -136,3 +136,8 @@ Route::get('/tag/delete/{id}', [
       'uses' => 'TagsController@destroy',
         'as' => 'tag.delete'
 ]);
+
+Route::get('/users', [
+       'uses' => 'UsersController@index',
+        'as'  => 'users'
+]);
