@@ -34,7 +34,15 @@
                   </td>
 
                   <td>
-                    Permissions
+                    @if($user->admin)
+
+                      <a href="{{ route('user.not.admin', ['id' => $user->id]) }}" class="btn btn-sm btn-outline-danger">Remove Permissions?</a>
+
+                    @else
+
+                      <a href="{{ route('user.admin', ['id' => $user->id]) }}" class="btn btn-sm btn-outline-success">Grant Admin Rights?</a>
+
+                    @endif
                   </td>
 
                   <td>
