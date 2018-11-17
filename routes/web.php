@@ -178,3 +178,14 @@ Route::post('user/profile/update', [
       'uses' => 'ProfilesController@update',
        'as'  => 'user.profile.update'
 ]);
+
+Route::get('/settings', [
+      'uses' => 'SettingsController@index',
+       'as'  => 'settings'
+]);
+
+
+Route::post('/settings/update', [
+      'uses' => 'SettingsController@update',
+       'as'  => 'settings.update'
+]);
