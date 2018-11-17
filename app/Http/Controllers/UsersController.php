@@ -10,6 +10,17 @@ use Illuminate\Http\Request;
 class UsersController extends Controller
 {
     /**
+    * Passing Through MiddleWare admin
+    *
+    */
+
+     public function __construct()
+     {
+       $this->middleware('admin');
+     }
+
+
+    /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
