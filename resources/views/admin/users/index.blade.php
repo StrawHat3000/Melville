@@ -36,17 +36,21 @@
                   <td>
                     @if($user->admin)
 
-                      <a href="{{ route('user.not.admin', ['id' => $user->id]) }}" class="btn btn-sm btn-outline-danger">Remove Permissions?</a>
+                      <a href="{{ route('user.not.admin', ['id' => $user->id]) }}" class="btn btn-sm btn-outline-danger">Remove Permissions</a>
 
                     @else
 
-                      <a href="{{ route('user.admin', ['id' => $user->id]) }}" class="btn btn-sm btn-outline-success">Grant Admin Rights?</a>
+                      <a href="{{ route('user.admin', ['id' => $user->id]) }}" class="btn btn-sm btn-outline-success">Grant Admin Rights</a>
 
                     @endif
                   </td>
 
                   <td>
-                    Delete
+                    @if (Auth::id() !== $user->id)
+
+                       <a href="{{ route('user.delete', ['id' => $user->id]) }}" class="btn btn-sm btn-outline-danger">Delete</a>
+
+                    @endif
                   </td>
                 </tr>
 
