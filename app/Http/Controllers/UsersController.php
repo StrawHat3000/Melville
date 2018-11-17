@@ -122,7 +122,7 @@ class UsersController extends Controller
     {
       $user = User::find($id);
 
-      $user->admin = 1;
+      $user->admin = 0;
 
       $user->save();
 
