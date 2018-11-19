@@ -11,9 +11,17 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+
+Route::get('/', [
+      'uses' => 'FrontendController@index',
+       'as'  => 'welcome'
+]);
+
+Route::get('/staff', [
+     'uses' => 'FrontendController@staff',
+     'as'   =>  'staff'
+]);
 
 Auth::routes();
 
@@ -21,6 +29,8 @@ Route::get('/admin/home', [
       'uses' => 'HomeController@index',
        'as'  => 'home'
 ]);
+
+
 
 Route::get('/admin/post/create', [
      'uses' => 'PostsController@create',

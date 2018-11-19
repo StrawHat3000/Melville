@@ -21,25 +21,25 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
 
     <!-- Bootstrap css -->
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" media="screen">
     <!-- Icofont css-->
-    <link href="/assets/icofont/icofont.min.css" rel="stylesheet" media="screen">
+    <link href="{{ asset('assets/icofont/icofont.min.css') }}" rel="stylesheet" media="screen">
     <!-- FlatIcon css-->
-    <link href="/assets/font/flaticon.css" rel="stylesheet" media="screen">
+    <link href="{{ asset('assets/font/flaticon.css') }}" rel="stylesheet" media="screen">
     <!-- Carousel css -->
-    <link href="/assets/css/owl.carousel.min.css" rel="stylesheet" media="screen">
+    <link href="{{  asset('assets/css/owl.carousel.min.css') }}" rel="stylesheet" media="screen">
     <!-- Carousel default css -->
-    <link href="/assets/css/owl.theme.default.min.css" rel="stylesheet" media="screen">
+    <link href=" {{ asset('assets/css/owl.theme.default.min.css')  }}" rel="stylesheet" media="screen">
     <!-- Animate css -->
-    <link href="/assets/css/animate.css" rel="stylesheet" media="screen">
+    <link href="{{ asset('assets/css/animate.css') }}" rel="stylesheet" media="screen">
     <!-- Lity css -->
-    <link href="/assets/css/lity.css" rel="stylesheet" media="screen">
+    <link href=" {{ asset('assets/css/lity.css') }}" rel="stylesheet" media="screen">
     <!-- Style css -->
-    <link href="/assets/css/style.css" rel="stylesheet" media="screen">
+    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet" media="screen">
     <!-- Responsive css -->
-    <link rel="stylesheet" href="/assets/css/responsive.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
     <!--Modernizr Js-->
-    <script src="/assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="{{ asset('assets/js/vendor/modernizr-3.6.0.min.js')  }}"></script>
 
     </head>
   <!--[if lte IE 9]>
@@ -48,109 +48,10 @@
 
 <body>
 
-    <!-- Preloader Section -->
-      <div id="loading">
-        <div id="loading-center">
-          <div id="loading-center-absolute">
-          <div class="object" id="object_four"></div>
-          <div class="object" id="object_three"></div>
-          <div class="object" id="object_two"></div>
-          <div class="object" id="object_one"></div>
-          </div>
-        </div>
-      </div>
-    <!-- Preloader Section -->
-
-    <!-- Header Section Start -->
-    <header id="main-header-2">
-      <!-- header-top -->
-        <div class="header-top">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 col-md-8">
-               <!--  Office Time  -->
-                <div class="office-time float-left">
-                  <p><span><i class="icofont-wall-clock"></i></span>Office Time: Mon - Fri (8:00 am to 4:00 pm)<span><i class="icofont-email"></i></span>support@gmail.com<span><i class="icofont-skype"></i></span>skype</p>
-                </div>
-               <!--  Office Time  -->
-              </div>
-              <div class="col-lg-4 col-md-4">
-                <!-- Social Icon -->
-                <div class="top-social-icons float-right">
-                  <ul>
-                    <li><a href="#"><i class="icofont-facebook"></i></a></li>
-                    <li><a href="#"><i class="icofont-twitter"></i></a></li>
-                    <li><a href="#"><i class="icofont-pinterest"></i></a></li>
-                    <li><a href="#"><i class="icofont-behance"></i></a></li>
-                    <li><a href="#"><i class="icofont-linkedin"></i></a></li>
-                  </ul>
-                </div>
-                <!-- Social Icon -->
-              </div>
-            </div>
-          </div>
-        </div>
-      <!-- header-top -->
-      <!-- header-navigation -->
-        <div class="header-home-2 header-sticky ">
-        <!-- Header Inner -->
-            <div class="header-inner  ">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-2 col-md-2">
-                    <!-- Logo -->
-                  <div class="logo">
-                    <a href="index-2.html"><img src="/assets/images/normal/melville.png" alt="Logo"></a>
-                  </div>
-                    <!--/End Logo -->
-                  </div>
-                  <div class="col-lg-2">
-                  </div>
-                  <div class="col-lg-8 col-md-9 ">
-
-                    <!-- Main Menu -->
-                    <div class="main-menu">
-                      <nav class="navbar navbar-expand-lg">
-                        <div class="navbar-collapse">
-                          <ul class="nav menu navbar-nav">
-                            <li class="active"><a href="#">Home</a>
-
-                            </li>
+    
+    @include('includes.header')
 
 
-
-                            <li><a href="#">News</a>
-
-                            </li>
-                            <li><a href="#">About us</a>
-
-                            </li>
-                            <li><a href="#">Contact</a>
-
-                            </li>
-
-                            <li><a href="#"> </a> </li>
-
-                          </ul>
-
-                        </div>
-                      </nav>
-
-                    </div>
-                    <!--/ End Main Menu -->
-                    <!-- Mobile Menu Start -->
-                    <div class="mobile-menu d-block d-lg-none col"></div><!-- Mobile Menu End -->
-                  </div>
-                </div>
-              </div>
-            </div>
-        <!--/ End Header Inner -->
-        </div>
-      <!-- header-navigation -->
-    </header>
-    <!-- Header Section End -->
-
-    <!-- Home Slider Start-->
       <section id="main-slider-1">
           <div id="slider-one" class="owl-carousel owl-theme">
            <!-- Slider Item -->
@@ -208,7 +109,7 @@
                                           </div>
                                           <!-- layer 3 -->
                                           <div class="layer-1-3-slide-1 align-center">
-                                              <a href="#" class="rep-btn-slide-1 left-btn" >Contact us</a>
+                                              <a href="#" class="rep-btn-slide-1 left-btn">Contact us</a>
 
                                           </div>
                                       </div>
@@ -873,22 +774,22 @@
     <!-- Back to scroll  -->
 
     <!--All Jquery Library Files -->
-    <script src="/assets/js/vendor/jquery-3.3.1.min.js"></script>
+    <script src="{{  asset('assets/js/vendor/jquery-3.3.1.min.js') }}"></script>
     <!-- Carousel js  -->
-    <script src="/assets/js/owl.carousel.min.js"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
     <!-- Bootstrap js  -->
-    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     <!-- Google Map Active js  -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBn-q0VMtMOum5A7HVG86duHeJApbVDv7o"></script>
-    <script src="/assets/js/map.js"></script>
+    <script src="{{ asset('assets/js/map.js') }}"></script>
     <!-- contact-form Js -->
-    <script src="/assets/js/contact-form.js"></script>
+    <script src="{{ asset('assets/js/contact-form.js') }}"></script>
     <!-- Plugins Js -->
-    <script src="/assets/js/plugins.js"></script>
+    <script src="{{ asset('assets/js/plugins.js') }}"></script>
     <!-- wow.min Js -->
-    <script src="/assets/js/wow.min.js"></script>
+    <script src="{{ asset('assets/js/wow.min.js') }}"></script>
     <!-- main Js -->
-    <script src="/assets/js/main.js"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 
 </body>
 
