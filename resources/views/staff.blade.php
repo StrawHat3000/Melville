@@ -12,8 +12,8 @@
               <div class="default-breadcrumb-title text-center">
                 <h4>Our Team</h4>
                 <ul class="breadcrumb-list">
-                  <li><a href="index-2.html">Home</a></li>
-                  <li class="active"><a href="project.html">Team member</a></li>
+                  <li><a href="{{ route('welcome')}}">Home</a></li>
+                  <li class="active"><a href="#">Staff Members</a></li>
                 </ul>
               </div>
             </div>
@@ -31,7 +31,7 @@
             <!-- Start Col -->
             <div class="col-lg-8 col-md-12">
               <div class="chairman-info">
-                <h3>Chairman Message</h3>
+                <h3>Directors Message</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget fringilla erat. Morbi tempor diam a est cursus eleifend. Integer odio nisi, porta ac dui vel, elementum aliquet massa.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget fringilla erat.</p>
 
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget fringilla erat. Morbi tempor diam a est cursus eleifend. Lorem ipsum dolor sit amet.</p>
@@ -83,7 +83,7 @@
 
                   <div class="our-experts-info">
                     <h4>Mark Perkar</h4>
-                    <p>CEO</p>
+                    <p>Principal</p>
                   </div>
                 </div>
               </div>
@@ -175,7 +175,7 @@
 
                   <div class="our-experts-info">
                     <h4>Mark Perkar</h4>
-                    <p>CO-Founder</p>
+                    <p>Vice-Principal</p>
                   </div>
                 </div>
               </div>

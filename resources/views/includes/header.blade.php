@@ -59,7 +59,7 @@
               <div class="col-lg-2 col-md-2">
                 <!-- Logo -->
               <div class="logo">
-                <a href="index-2.html"><img src="/assets/images/normal/melville.png" alt="Logo"></a>
+                <a href="{{ route('welcome') }}"><img src="/assets/images/normal/melville.png" alt="Logo"></a>
               </div>
                 <!--/End Logo -->
               </div>
@@ -72,7 +72,7 @@
                   <nav class="navbar navbar-expand-lg">
                     <div class="navbar-collapse">
                       <ul class="nav menu navbar-nav">
-                        <li class="active"><a href="#">Home</a>
+                        <li class="active"><a href="{{ route('welcome') }}">Home</a>
 
                         </li>
 
