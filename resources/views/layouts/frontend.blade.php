@@ -52,7 +52,7 @@
     @include('includes.header')
 
 
-
+    @yield('content')
     <!-- About Us -->
 
 
