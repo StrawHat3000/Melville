@@ -26,7 +26,7 @@
             <div class="login-register float-right">
               <ul>
                 <li><span><i class="icofont-ui-user"></i></span><a href="{{ url('/login') }}">Log in</a></li>
-                <li><a href="{{ url('/register') }}">Register</a></li>
+
               </ul>
             </div>
           </div>
