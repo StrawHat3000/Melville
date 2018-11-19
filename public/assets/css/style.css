@@ -1644,7 +1644,7 @@ Request a Call Back*/
     margin: 20px 0;
 }
 .layer-1-1-slide-1 p {
-    color: #777777;
+    color: #f8f9fa
     font-size: 16px;
     letter-spacing: 0.60px;
     line-height: 27px;
@@ -1663,7 +1663,7 @@ Request a Call Back*/
   font-size: 36px;
   font-weight: 400;
   line-height: 52px;
-  display: inline-block;color: #333333
+  display: inline-block;color: #ffc107
 }
 .slider-content .align-center {
   text-align: center;
