@@ -37,7 +37,7 @@ class UsersController extends Controller
      */
     public function create()
     {
-        return view('admin.users.create');
+        return view('admin.users.create')->with('users', User::all());;
     }
 
     /**
