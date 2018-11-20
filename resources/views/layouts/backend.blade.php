@@ -100,7 +100,7 @@
           </div>
           <!-- Sidebar Navidation Menus--><span class="heading">Main</span>
           <ul class="list-unstyled">
-                    <li class="active"><a href="index.html"> <i class="icon-home"></i>Home </a></li>
+                    <li class="active"><a href="{{ route('home') }}"> <i class="icon-home"></i>Home </a></li>
 
                     <li><a href="#userDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-user"></i>Users</a>
                       <ul id="userDropdown" class="collapse list-unstyled ">

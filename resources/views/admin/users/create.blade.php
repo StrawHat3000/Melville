@@ -6,7 +6,7 @@
 
    <div class="container-fluid">
      <div class="row">
-       <!-- Basic Form-->
+
        <div class="col-lg-4">
        </div>
 
@@ -22,7 +22,7 @@
              <h3 class="h4">Create A New User</h3>
            </div>
            <div class="card-body">
-             <p>create new user with default privileges.</p>
+             <p><em>Create a new user with default privileges.</em></p>
              <form action="{{ route('user.store') }}" method="post">
                   {{ csrf_field() }}
                <div class="form-group">
