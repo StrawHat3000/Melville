@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bootstrap Material Admin by Bootstrapious.com</title>
+    <title>Melville Schools</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="robots" content="all,follow">
@@ -692,11 +692,11 @@
             <div class="container-fluid">
               <div class="row">
                 <div class="col-sm-6">
-                  <p>Your company &copy; 2017-2019</p>
+                  <p>StrawHat Group &copy; 2018</p>
                 </div>
                 <div class="col-sm-6 text-right">
-                  <p>Design by <a href="https://bootstrapious.com/admin-templates" class="external">Bootstrapious</a></p>
-                  <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
+                  <p>Design by <a href="#" class="external">StrawHat</a></p>
+                
                 </div>
               </div>
             </div>
