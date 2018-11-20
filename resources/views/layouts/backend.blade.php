@@ -102,7 +102,7 @@
           <ul class="list-unstyled">
                     <li class="active"><a href="index.html"> <i class="icon-home"></i>Home </a></li>
 
-                    <li><a href="#userDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>Users</a>
+                    <li><a href="#userDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-user"></i>Users</a>
                       <ul id="userDropdown" class="collapse list-unstyled ">
                         <li><a href="{{ route('users') }}">View Users</a></li>
                         <li><a href="{{ route('user.create') }}">Create New User</a></li>
@@ -110,21 +110,21 @@
                     </li>
 
 
-                    <li><a href="#postDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>Posts</a>
+                    <li><a href="#postDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-padnote"></i>Posts</a>
                       <ul id="postDropdown" class="collapse list-unstyled ">
                         <li><a href="#">View Posts</a></li>
                         <li><a href="#">Create New Post</a></li>
                       </ul>
                     </li>
 
-                    <li><a href="#tagsDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>Tags</a>
+                    <li><a href="#tagsDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-bill"></i>Tags</a>
                       <ul id="tagsDropdown" class="collapse list-unstyled ">
                         <li><a href="#">View Tags</a></li>
                         <li><a href="#">Create New Tag</a></li>
                       </ul>
                     </li>
 
-                    <li><a href="#categoriesDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>Categories</a>
+                    <li><a href="#categoriesDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-list"></i>Categories</a>
                       <ul id="categoriesDropdown" class="collapse list-unstyled ">
                         <li><a href="#">View Categories</a></li>
                         <li><a href="#">Create New Categories</a></li>
